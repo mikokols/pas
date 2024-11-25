@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Curriculum Vitae</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My CV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Educations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#findme">Find Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <img src="profile.jpg" alt="Profile Picture" class="rounded-circle mb-3" width="150">
+            <h2>Your Name</h2>
+            <h4>Your Class</h4>
+            <div class="mt-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-4">Educations</h3>
+            <h5>Pengalaman Organisasi / Ekstrakurikuler</h5>
+            <table class="table table-bordered mb-4">
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Peran / Posisi</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022</td>
+                        <td>Ketua OSIS</td>
+                        <td>Memimpin organisasi siswa</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>Riwayat Pendidikan</h5>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nama Sekolah</th>
+                        <th>Tahun</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SMK Telkom Jakarta</td>
+                        <td>2020-2023</td>
+                        <td>Jurusan Rekayasa Perangkat Lunak</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Find Me Section -->
+    <section id="findme" class="py-5">
+        <div class="container text-center">
+            <h3>Find Me</h3>
+            <p>Email: example@example.com | Phone: 1234567890</p>
+            <a href="https://instagram.com" target="_blank" class="btn btn-outline-primary mx-1">Instagram</a>
+            <a href="https://facebook.com" target="_blank" class="btn btn-outline-primary mx-1">Facebook</a>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-4">Contact Me</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark text-white text-center">
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
